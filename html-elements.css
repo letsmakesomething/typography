@@ -1,0 +1,56 @@
+/* https://developer.mozilla.org/en-US/docs/Web/HTML/Element */
+
+/* Content sectioning */
+
+address, article, body, footer, header, h1, h2, h3, h4, h5, h6, hgroup, nav, section {}
+
+/* Text content */
+
+dd, div, dl, dt, figcaption, figure, hr, li, main, ol, p, pre, ul {}
+
+/* Inline text semantics */
+
+a, abbr, b, bdi, bdo, br, cite, code, data, dfn, em, i, kbd, mark, q, rp, rt, rtc, ruby, s, samp, small, span, strong, sub, sup, time, u, var, wbr {}
+
+/* Image and multimedia */
+
+area, audio, img, map, track, video {}
+
+/* Embedded content */
+
+embed, iframe, object, source {}
+
+/* Scripting */
+
+canvas, noscript, script {}
+
+/* Demarcating edits */
+
+del, ins {}
+
+/* Table content */
+
+caption, col, colgroup, table, tbody, td, tfoot, th, thead, tr {}
+
+/* Forms */
+
+button, datalist, fieldset, form, input, keygen, label, legend, meter, optgroup, output, progress, select, textarea {}
+
+/* Interactive elements */
+
+details, dialog, menu, menuitem, summary {}
+
+/* Web components */
+
+content, decorator, element, shadow, template {}
+
+/* Obsolete and deprectated elements */
+
+acronym, applet, basefont, big, blink, center, dir, frame, frameset, isindex, listing, noembed, plaintext, striek, tt, xmp {}
+
+
+/* Tablet styles */
+@media screen and (max-width: 768px) {}
+
+/* Desktop styles */
+@media screen and (max-width: 1024px) {}

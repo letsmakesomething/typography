@@ -1,0 +1,106 @@
+/* Default list */
+
+address, article, body, footer, header, h1, h2, h3, h4, h5, h6, hgroup, nav, section, dd, div, dl, dt, figcaption, figure, hr, li, main, ol, p, pre, ul, a, abbr, b, bdi, bdo, br, cite, code, data, dfn, em, i, kbd, mark, q, rp, rt, rtc, ruby, s, samp, small, span, strong, sub, sup, time, u, var, wbr, area, audio, img, map, track, video, embed, iframe, object, source, canvas, noscript, script, canvas, noscript, script, del, ins, caption, col, colgroup, table, tbody, td, tfoot, th, thead, tr, button, datalist, fieldset, form, input, keygen, label, legend, meter, optgroup, output, progress, select, textarea, details, dialog, menu, menuitem, summary, content, decorator, element, shadow, template {
+   font-family: sans-serif;
+   font-size: 16px;
+   line-height: 1.5;
+   font-weight: normal;
+}
+
+nav {}
+
+hgroup {}
+
+h1 { 
+   font-size: 54px;
+   line-height: 1;
+   padding: 0 0 24px;
+   font-weight: bold;
+}
+
+h2 { 
+   font-size: 36px;
+   line-height: 1;
+   padding: 0 0 24px;
+   font-weight: bold;
+}
+
+h3 { 
+   font-size: 24px;
+   line-height: 1;
+   padding: 0 0 24px;
+   font-weight: bold;
+}
+
+h4 { 
+   font-size: 16px;
+   padding: 0 0 24px;
+   font-weight: bold;
+}
+
+h5 { 
+   font-size: 16px;
+   padding: 0 0 24px;
+   font-weight: bold;
+}
+
+h6 { 
+   font-size: 16px;
+   padding: 0 0 24px;
+   font-weight: bold;
+}
+
+p { padding: 0 0 24px; }
+
+ul,
+ol,
+dd { padding: 0 0 24px; }
+
+li,
+dl,
+dt {
+   padding: 0 0 6px;
+   margin-left: 24px;
+}
+
+ul li {
+   list-style-type: disc;
+}
+
+ol li {
+   list-style-type: decimal;
+}
+
+li:last-child,
+dl:last-child,
+dt:last-child { padding-bottom: 0; }
+
+b { font-weight: bold; }
+
+i { font-style: italic; }
+
+em { font-style: italic; }
+
+strong { font-weight: bold; }
+
+q { font-style: italic; }
+
+pre { font-family: monospace; }
+
+code { font-family: monospace; }
+
+small { font-size: 10px; }
+
+figure {
+   padding-bottom: 24px;
+}
+
+figcaption {
+   font-size: 10px;
+}
+
+/* Tablet styles */
+@media screen and (max-width: 768px) {}
+
+/* Desktop styles */
+@media screen and (max-width: 1024px) {}
